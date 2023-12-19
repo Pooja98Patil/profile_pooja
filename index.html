@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
     <style>
         fieldset{padding: 0px;}
      header {
@@ -21,6 +22,7 @@
             padding: 8px;
             font-size: 15px;
             font-family: 'Roboto', sans-serif;
+            text-align: right;
  }
  header .fa{
     padding :13px;
@@ -35,9 +37,16 @@
             margin-left: 10px;
         }
         footer, a{
-             margin: 10px;
-             font-size: 20px;
+             padding: 15px;
+             margin: 20px;
+             font-size: 23px;
              color: #038272;
+        }
+        .left{text-align: left;}
+        .right{text-align: right;}
+
+        footer a:hover{
+          background-color: aquamarine;
         }
     </style>
 </head>
@@ -46,15 +55,16 @@
     <!-- Header Section -->
     <fieldset>
     <header>
+        <span><i class="fa fa-home" aria-hidden="true"></i></span>
         <span><i class="fa fa-user" aria-hidden="true"></i> Pooja Patil</span>
         <span><i class="fa fa-phone-square" aria-hidden="true"></i>7756815347
-            <span><i class="fa fa-envelope" aria-hidden="true"></i> ukpooja98@gmail.com</span>
+       <span><i class="fa fa-envelope" aria-hidden="true"></i> ukpooja98@gmail.com</span>
     </header>
     <hr>
 
     <!-- Navigation Section -->
-    <nav>
-        <a href="home.html" target="mainFrame" id="homeLink">Home</a>
+    <nav class="navbar">
+        <a href="home.html"  target="mainFrame" id="homeLink">Home</a>
         <a href="techStack.html" target="mainFrame">Tech stack</a>
         <a href="project.html" target="mainFrame">Projects</a>
         <a href="education.html" target="mainFrame">Education</a>

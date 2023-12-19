@@ -1,0 +1,56 @@
+
+/* Style for home */
+
+.summery {
+    color: #ffff;
+    background-color: #038272;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+     padding: 10px;
+}
+
+#list li{list-style-type: none;}
+#list li::before {
+    content:"👉";
+    margin-right: 20px;
+}
+
+
+.navbar a{
+    padding: 10px;
+}
+
+.navbar a:hover{
+  background-color: #038272;
+  color: #fff;
+}
+.objective{
+    background-image: url(backgroundimg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+ }
+ .objective p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 89px;
+}
+
+ 
+/* css for projects page */
+.projects{
+    font-family:'Roboto', sans-serif;
+}
+h1{
+    color: #038272;
+}
+.projects li::before {
+    content:"👉🏼";
+    margin-right: 20px;
+    
+}
+.projects li{list-style-type: none;}
+
+
+/* css for education  page */
